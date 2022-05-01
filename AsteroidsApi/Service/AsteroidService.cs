@@ -54,8 +54,8 @@ namespace AsteroidsApi
 
         private String getUrl()
         {
-             var dateini = DateTime.Today.ToString("yyyy-MM-dd");
-            var datefin = DateTime.Today.AddDays(7).ToString("yyyy-MM-dd");
+             var datefin = DateTime.Today.ToString("yyyy-MM-dd");
+            var dateini = DateTime.Today.AddDays(-7).ToString("yyyy-MM-dd");
 
             return  $"https://api.nasa.gov/neo/rest/v1/feed?start_date={dateini}&end_date={datefin}&api_key=zdUP8ElJv1cehFM0rsZVSQN7uBVxlDnu4diHlLSb";
 

@@ -12,8 +12,8 @@ namespace TestProject1
         public async void TestsIsApiSiteOnline()
         {
             int expectedstatuscode = 200;
-            var dateini = DateTime.Now.ToString("yyyy-MM-dd");
-            var datefin = DateTime.Now.AddDays(7).ToString("yyyy-MM-dd");
+            var dateini = DateTime.Today.AddDays(-7).ToString("yyyy-MM-dd");
+            var datefin = DateTime.Today.ToString("yyyy-MM-dd");
 
 
 
