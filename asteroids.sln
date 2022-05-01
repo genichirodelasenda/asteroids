@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsteroidsApi", "AsteroidsApi\AsteroidsApi.csproj", "{CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "TestProject1\Tests.csproj", "{1AFEF082-4B2E-46F9-A243-E3BC99B2BA21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1} = {CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB4510E4-4886-467C-BBEC-7FCA3AFAA1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFEF082-4B2E-46F9-A243-E3BC99B2BA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFEF082-4B2E-46F9-A243-E3BC99B2BA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFEF082-4B2E-46F9-A243-E3BC99B2BA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFEF082-4B2E-46F9-A243-E3BC99B2BA21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76049847-F553-4C41-AFBB-5524A61315CE}
+	EndGlobalSection
+EndGlobal
